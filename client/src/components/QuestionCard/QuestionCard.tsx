@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Reply from "../Reply/Reply";
 import { QuestionType } from "../../Types";
-import style from "./QuestionCard.module.css";
+import style from "./QuestionCard.module.scss";
 
 export default function QuestionCard({
   Question,

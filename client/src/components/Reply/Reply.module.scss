@@ -4,16 +4,14 @@
     border-radius: 10px;
     width: 7rem;
     font-weight: 500;
+
+    @media screen and (max-width:400px) {
+    width: 5rem;
+    font-size: small;
+    }
 }
 
 .selected {
     background-color: darkgreen;
     font-weight: 700;
-}
-
-@media screen and (max-width:400px) {
-    .reply {
-        width: 5rem;
-        font-size: small;
-    }
 }

@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, { useState } from "react";
-import style from "./RequestsBlock.module.css";
+import { useState } from "react";
+import style from "./RequestsBlock.module.scss";
 
 export default function RequestsBlock() {
   const [movieQuote, setMovieQuote] = useState("");

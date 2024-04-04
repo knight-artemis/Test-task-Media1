@@ -1,5 +1,4 @@
-import React from "react";
-import style from "./TextBlock.module.css";
+import style from "./TextBlock.module.scss";
 
 export default function TextBlock() {
   return (

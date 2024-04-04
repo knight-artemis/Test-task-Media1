@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import clsx from "clsx";
-import style from "./Reply.module.css";
+import style from "./Reply.module.scss";
 
 export default function Reply({
   Option,
